@@ -6,6 +6,8 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import study.zou.frank.mylibrary.Hello;
+
 
 public class MainActivity extends ActionBarActivity {
 
@@ -14,7 +16,7 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Log.d("HelloAndroid", "onCreate()...");
-
+        Hello.hi();
     }
 
 
